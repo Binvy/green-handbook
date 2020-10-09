@@ -10,13 +10,13 @@ Preface to the Java SE 8 Edition xix
 		1.5 Feedback 7
 		1.6 References 7
 
-	2 Grammars 9
+	2 Grammars 9 									// done 2020-10-9 22:07:36
 		2.1 Context-Free Grammars 9
 		2.2 The Lexical Grammar 9
 		2.3 The Syntactic Grammar 10
 		2.4 Grammar Notation 10
 
-	3 Lexical Structure 15
+	3 Lexical Structure 15 							// done 2020-10-9 23:15:59
 		3.1 Unicode 15
 		3.2 Lexical Translations 16
 		3.3 Unicode Escapes 17
