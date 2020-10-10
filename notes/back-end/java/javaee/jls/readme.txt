@@ -37,7 +37,7 @@ Preface to the Java SE 8 Edition xix
 		3.11 Separators 39
 		3.12 Operators 39
 
-	4 Types, Values, and Variables 41
+	4 Types, Values, and Variables 41 				// done 2020-10-10 08:00:43
 		4.1 The Kinds of Types and Values 41
 		4.2 Primitive Types and Values 42
 			4.2.1 Integral Types and Values 43
