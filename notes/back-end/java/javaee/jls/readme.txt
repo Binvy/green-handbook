@@ -72,7 +72,7 @@ Preface to the Java SE 8 Edition xix
 			4.12.5 Initial Values of Variables 87
 			4.12.6 Types, Classes, and Interfaces 88
 
-	5 Conversions and Contexts 93
+	5 Conversions and Contexts 93 					// done 2020-10-11 16:04:11
 		5.1 Kinds of Conversion 96
 			5.1.1 Identity Conversion 96
 			5.1.2 Widening Primitive Conversion 96
@@ -87,10 +87,14 @@ Preface to the Java SE 8 Edition xix
 			5.1.11 String Conversion 107
 			5.1.12 Forbidden Conversions 108
 			5.1.13 Value Set Conversion 108
-		5.2 Assignment Contexts 109
+		5.2 Assignment Contexts 109 				// done 2020-10-11 14:26:19
 		5.3 Invocation Contexts 114
 		5.4 String Contexts 116
 		5.5 Casting Contexts 116
+
+			Table5.5-A Casting conversions to primitive types
+			Table5.5-B Casting conversions to reference types
+
 			5.5.1 Reference Type Casting 120
 			5.5.2 Checked Casts and Unchecked Casts 124
 			5.5.3 Checked Casts at Run Time 125

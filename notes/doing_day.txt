@@ -4814,5 +4814,70 @@
 
 	    3 Lexical Structure 15 									// done 2020-10-9 23:15:59
 
-		4 Types, Values, and Variables 41 						// done 2020-10-10 08:00:43	    
+		4 Types, Values, and Variables 41 						// done 2020-10-10 08:00:43	 
+
+2020-10-11
+
+	# 《The Java® Language Specification Java SE 8 Edtion》:
+
+		5 Conversions and Contexts 93 							// done 2020-10-11 16:04:11						
+
+	# java.util.Collections#reverse实现：
+	
+		    @SuppressWarnings({"rawtypes", "unchecked"})
+		    public static void reverse(List<?> list) {
+		        int size = list.size();
+		        if (size < REVERSE_THRESHOLD || list instanceof RandomAccess) {
+		            for (int i=0, mid=size>>1, j=size-1; i<mid; i++, j--)
+		                swap(list, i, j);
+		        } else {
+		            // instead of using a raw type here, it's possible to capture
+		            // the wildcard but it will require a call to a supplementary
+		            // private method
+		            ListIterator fwd = list.listIterator();
+		            ListIterator rev = list.listIterator(size);
+		            for (int i=0, mid=list.size()>>1; i<mid; i++) {
+		                Object tmp = fwd.next();
+		                fwd.set(rev.previous());
+		                rev.set(tmp);
+		            }
+		        }
+		    }	
+
+	        public static void swap(List<?> list, int i, int j) {
+		        // instead of using a raw type here, it's possible to capture
+		        // the wildcard but it will require a call to a supplementary
+		        // private method
+		        final List l = list;
+		        l.set(i, l.set(j, l.get(i)));
+		    }	
+
+		--> ListIterator和Iterator的区别？
+
+			public interface Iterator<E> {
+				boolean hasNext();
+				E next();
+				default void remove() {
+			        throw new UnsupportedOperationException("remove");
+			    }    		   
+			    default void forEachRemaining(Consumer<? super E> action) {
+			        Objects.requireNonNull(action);
+			        while (hasNext())
+			            action.accept(next());
+			    }
+			}
+			
+			public interface ListIterator<E> extends Iterator<E> {
+				boolean hasNext();
+				E next();
+				void remove();	
+
+				// 这些是ListIterator里独有的方法，可以获取前一个元素以及元素的下标索引，遍历时不仅可以删除，也可以添加、修改元素。
+				boolean hasPrevious();
+				E previous();
+				int nextIndex();
+				int previousIndex();
+				void set(E e);
+				void add(E e);
+			}    	
 
