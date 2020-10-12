@@ -4881,3 +4881,10 @@
 				void add(E e);
 			}    	
 
+2020-10-12
+
+	# 《The Java® Language Specification Java SE 8 Edtion》:
+
+		6 Names 131 									// done 2020-10-12 22:11:12
+
+		7 Packages 175 									// done 2020-10-12 22:35:53

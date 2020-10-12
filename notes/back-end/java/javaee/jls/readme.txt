@@ -102,7 +102,7 @@ Preface to the Java SE 8 Edition xix
 			5.6.1 Unary Numeric Promotion 127
 			5.6.2 Binary Numeric Promotion 128
 
-	6 Names 131
+	6 Names 131 									// done 2020-10-12 22:11:12
 		6.1 Declarations 132
 		6.2 Names and Identifiers 139
 		6.3 Scope of a Declaration 141
@@ -133,7 +133,7 @@ Preface to the Java SE 8 Edition xix
 				6.6.2.2 Qualified Access to a protected Constructor 169
 		6.7 Fully Qualified Names and Canonical Names 171
 
-	7 Packages 175
+	7 Packages 175 									// done 2020-10-12 22:35:53
 		7.1 Package Members 175
 		7.2 Host Support for Packages 177
 		7.3 Compilation Units 179
