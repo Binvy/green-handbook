@@ -150,7 +150,7 @@ Preface to the Java SE 8 Edition xix
 
 	8 Classes 191
 
-		8.1 Class Declarations 193
+		8.1 Class Declarations 193 					// done 2020-10-13 21:34:28
 			8.1.1 Class Modifiers 193
 				8.1.1.1 abstract Classes 194
 				8.1.1.2 final Classes 196
@@ -161,9 +161,9 @@ Preface to the Java SE 8 Edition xix
 			8.1.5 Superinterfaces 204
 			8.1.6 Class Body and Member Declarations 207
 
-		8.2 Class Members 208
+		8.2 Class Members 208 						// done 2020-10-13 21:51:58
 
-		8.3 Field Declarations 213
+		8.3 Field Declarations 213 					// done 2020-10-13 22:27:32
 			8.3.1 Field Modifiers 217
 				8.3.1.1 static Fields 218
 				8.3.1.2 final Fields 221
