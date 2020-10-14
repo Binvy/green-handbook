@@ -148,7 +148,7 @@ Preface to the Java SE 8 Edition xix
 			7.5.4 Static-Import-on-Demand Declarations 186
 		7.6 Top Level Type Declarations 187
 
-	8 Classes 191
+	8 Classes 191 									// done 2020-10-14 00:30:00
 
 		8.1 Class Declarations 193 					// done 2020-10-13 21:34:28
 			8.1.1 Class Modifiers 193
@@ -231,7 +231,7 @@ Preface to the Java SE 8 Edition xix
 		9.2 Interface Members 284
 		9.3 Field (Constant) Declarations 285
 			9.3.1 Initialization of Fields in Interfaces 287
-		9.4 Method Declarations 288
+		9.4 Method Declarations 288 				// done 2020-10-14 21:37:44
 			9.4.1 Inheritance and Overriding 289
 				9.4.1.1 Overriding (by Instance Methods) 290
 				9.4.1.2 Requirements in Overriding 291
@@ -239,7 +239,7 @@ Preface to the Java SE 8 Edition xix
 			9.4.2 Overloading 292
 			9.4.3 Interface Method Body 293
 		9.5 Member Type Declarations 293
-		9.6 Annotation Types 294
+		9.6 Annotation Types 294 					// done 2020-10-14 22:26:52
 			9.6.1 Annotation Type Elements 295
 			9.6.2 Defaults for Annotation Type Elements 299
 			9.6.3 Repeatable Annotation Types 300
