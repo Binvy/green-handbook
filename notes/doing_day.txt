@@ -4895,6 +4895,25 @@
 
 2020-10-14		
 
-		9 Interfaces 279 								
+		9 Interfaces 279 								// done 2020-10-15 08:30:56		
 
-			9.6 Annotation Types 294 					// done 2020-10-14 22:26:52
+2020-10-15
+
+	# ZeroMQ: 
+
+		中文文档： https://github.com/anjuke/zguide-cn
+
+		英文文档： http://zguide2.zeromq.org/page:all
+
+		官网： https://zeromq.org/
+
+			  https://zeromq.org/get-started/#
+
+		Github:  https://github.com/booksbyus/zguide
+		
+			     https://github.com/zeromq/jeromq
+
+	# Mongrel2: http://mongrel2.org/: 
+	
+		Mongrel2 is an application, language, and network architecture agnostic web server that focuses on web applications using modern browser technologies.		     
+

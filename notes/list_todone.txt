@@ -82,6 +82,18 @@ tool:
 
 	ZooKeeper: https://zookeeper.apache.org/ 						// start 2020-6-15 21:55:34  done 2020-6-21 18:32:51
 
+	ZeroMQ: 
+
+		中文文档： https://github.com/anjuke/zguide-cn
+
+		英文文档： http://zguide2.zeromq.org/page:all
+
+		官网： https://zeromq.org/
+
+		Github:  https://github.com/booksbyus/zguide
+		
+			     https://github.com/zeromq/jeromq
+
 			
 
 
