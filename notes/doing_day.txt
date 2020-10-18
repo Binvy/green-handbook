@@ -4956,3 +4956,18 @@
 	
 		user-guide: https://netty.io/wiki/user-guide-for-4.x.html#wiki-h3-17	// done 2020-10-17 17:35:36
 
+2020-10-18
+
+	# 尚硅谷Netty视频教程（2019发布） https://www.bilibili.com/video/BV1DJ411m7NR
+
+		P11 011_尚硅谷_Buffer的机制及子类 24:37
+		P12 012_尚硅谷_Channel基本介绍 12:41
+		P13 013_尚硅谷_Channel应用实例1 13:49
+		P14 014_尚硅谷_Channel应用实例2 11:24
+		P15 015_尚硅谷_Channel应用实例3 18:33
+		P16 016_尚硅谷_Channel拷贝文件 05:40 
+		P17 017_尚硅谷_Buffer类型化和只读 12:46 
+		P18 018_尚硅谷_MappedByteBuffer使用 13:07 
+		P19 019_尚硅谷_Buffer的分散和聚集 24:23 
+		P20 020_尚硅谷_Channel和Buffer梳理 07:54	 	// done 2020-10-18 11:00:00		
+
