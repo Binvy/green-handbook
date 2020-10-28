@@ -5101,3 +5101,17 @@
 		P114 114_尚硅谷_用Netty实现DubboRPC-4 15:07 
 		P115 115_尚硅谷_用Netty实现DubboRPC-5 19:40 
 		P116 116_尚硅谷_用Netty实现DubboRPC-6 20:19 	// done 2020-10-26 22:20:31
+
+2020-10-28
+
+	# 《Netty in Action》		
+
+		PART1 GETTING STARTED
+
+			1. Netty and Java NIO APIs
+			2. Your first Netty Application
+			3. Netty from the ground up
+
+		PART2: CORE FUNCTIONS/PARTS	
+
+			4. Transports 							// done 2020-10-28 22:22:56

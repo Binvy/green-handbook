@@ -15,11 +15,24 @@ Netty学习笔记：
 	本地: D:\workspace\GitHub\netty-4.1
 
 	书籍:
-		《Netty实战》
+		《Netty in Action》 			// start 2020-10-20 08:00
+
+			PART1 GETTING STARTED
+
+				1. Netty and Java NIO APIs
+				2. Your first Netty Application
+				3. Netty from the ground up
+
+			PART2: CORE FUNCTIONS/PARTS	
+
+				4. Transports 		// done 2020-10-28 22:22:56
+
+
 		《Netty权威置南》
 
 	视频:
-		# 尚硅谷Netty视频教程（2019发布） https://www.bilibili.com/video/BV1DJ411m7NR		// start 2020-10-17 09:00:00 	done 2020-10-26 22:21:15
+		# 尚硅谷Netty视频教程（2019发布） https://www.bilibili.com/video/BV1DJ411m7NR		// start 2020-10-17 09:00:00 	done 2020-10-26 22:21 
+
 			P1 001_尚硅谷_课程说明和要求 19:16
 			P2 002_尚硅谷_Netty是什么 12:11 
 			P3 003_尚硅谷_应用场景和学习资料 07:10 
