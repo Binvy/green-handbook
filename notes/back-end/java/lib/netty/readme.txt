@@ -30,7 +30,8 @@ Netty学习笔记：
 				6. ChannelHandler 						// done 2020-11-1 11:18:34
 				7. Codec 								// done 2020-11-1 11:54:59
 				8. Provided ChannelHandlers and codecs	// done 2020-11-1 16:44:57
-				9. Bootstrapping Netty applications			// done 2020-11-1 18:11:50
+				9. Bootstrapping Netty applications		// done 2020-11-1 18:11:50
+				10. Unit-test your code 				// done 2020-11-1 18:41:47
 
 
 		《Netty权威置南》
