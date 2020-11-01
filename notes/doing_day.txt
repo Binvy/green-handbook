@@ -5115,3 +5115,11 @@
 		PART2: CORE FUNCTIONS/PARTS	
 
 			4. Transports 							// done 2020-10-28 22:22:56
+
+2020-11-1
+
+	# 《Netty in Action》
+
+		5. Buffers
+		6. ChannelHandler 							// done 2020-11-1 11:18:34	
+		7. Codec 									// done 2020-11-1 11:54:59		

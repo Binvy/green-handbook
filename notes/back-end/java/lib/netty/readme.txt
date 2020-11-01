@@ -15,7 +15,7 @@ Netty学习笔记：
 	本地: D:\workspace\GitHub\netty-4.1
 
 	书籍:
-		《Netty in Action》 			// start 2020-10-20 08:00
+		《Netty in Action》 								// start 2020-10-20 08:00
 
 			PART1 GETTING STARTED
 
@@ -25,7 +25,10 @@ Netty学习笔记：
 
 			PART2: CORE FUNCTIONS/PARTS	
 
-				4. Transports 		// done 2020-10-28 22:22:56
+				4. Transports 							// done 2020-10-28 22:22:56
+				5. Buffers
+				6. ChannelHandler 						// done 2020-11-1 11:18:34
+				7. Codec 								// done 2020-11-1 11:54:59
 
 
 		《Netty权威置南》
