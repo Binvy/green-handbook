@@ -32,6 +32,9 @@ Netty学习笔记：
 				8. Provided ChannelHandlers and codecs	// done 2020-11-1 16:44:57
 				9. Bootstrapping Netty applications		// done 2020-11-1 18:11:50
 				10. Unit-test your code 				// done 2020-11-1 18:41:47
+				11. WebSockets
+				12. SPDY
+				13. Broadcasting events via UDP 		// done 2020-11-2 17:25:06
 
 
 		《Netty权威置南》
