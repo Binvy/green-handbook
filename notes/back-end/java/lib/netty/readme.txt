@@ -35,6 +35,9 @@ Netty学习笔记：
 				11. WebSockets
 				12. SPDY
 				13. Broadcasting events via UDP 		// done 2020-11-2 17:25:06
+				14. Implement a custom codec 			// done 2020-11-2 20:54:41
+				15. Choosing the right thread model 	// done 2020-11-2 21:38:27
+				16. De-register / Re-register with EventLoop 	// done 2020-11-2 21:57:50
 
 
 		《Netty权威置南》
