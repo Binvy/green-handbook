@@ -5132,3 +5132,45 @@
 		14. Implement a custom codec 				// done 2020-11-2 20:54:41
 		15. Choosing the right thread model 		// done 2020-11-2 21:38:27
 		16. De-register / Re-register with EventLoop// done 2020-11-2 21:57:50
+
+2020-11-3
+
+	# 尚硅谷ActiveMQ教程(MQ消息中间件快速入门) 		// start 2020-11-3 22:54:18		
+
+		https://www.bilibili.com/video/BV164411G7aB
+
+		P1 01_前言说明 09:28 
+		P2 02_两种讲授闲聊 07:20 
+		P3 03_MQ的产品学习说明 11:53 
+		P4 04_为什么要引入MQ_上 15:09 
+		P5 05_为什么要引入MQ_下 12:05 
+		P6 06_MQ的作用定义 10:06 
+		P7 07_ActiveMQ官网介绍和下载 11:15
+		P8 08_ActiveMQ在Linux下安装 14:58 
+		P9 09_ActiveMQ安装后的控制台访问 09:50 
+		P10 10_Java编码MQ标准API讲解 16:27 
+		P11 11_消息生产者编码 20:06 
+		P12 12_消息消费者编码 10:01 
+		P13 13_消息消费者receive方法说明 04:40 		// done 2020-11-4 00:55:35
+
+2020-11-4
+
+	# 尚硅谷2020最新版Java面试题第三季（java大厂面试题，周阳主讲）	// start 2020-11-4 22:52:19 		
+
+		https://www.bilibili.com/video/BV1Hy4y1B78T
+
+		P1 00_前言闲聊和课程说明 25:06 
+		P2 01_字符串常量Java内部加载-上 07:51 
+		P3 02_字符串常量Java内部加载-下 15:24 
+		P4 03_闲聊力扣算法第一题 06:49 
+		P5 04_TwoSum暴力解法 09:31 
+		P6 05_TwoSum优化解法 13:17 
+		P7 06_闲聊AQS面试 06:03 
+		P8 07_可重入锁理论 06:34 
+		P9 08_可重入锁的代码验证-上 04:09 
+		P10 09_可重入锁的代码验证-下 10:04 
+		P11 10_LockSupport是什么 07:07 
+		P12 11_waitNotify限制 12:00 
+		P13 12_awaitSignal限制 06:22 
+		P14 13_LockSupport方法介绍 05:25 
+		P15 14_LockSupport案例解析 12:13 						// done 2020-11-4 23:53:28
