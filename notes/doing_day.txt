@@ -5197,3 +5197,16 @@
 		P33 32_spring循环依赖纯java代码验证案例 06:45 
 		P34 33_spring循环依赖bug演示 10:44 
 		P35 34_spring循环依赖debug前置知识 10:44 					// done 2020-11-5 09:00:31
+
+2020-11-6
+
+	# 尚硅谷经典Java面试题第一季(java面试精讲)  	https://www.bilibili.com/video/BV1Eb411P7bP 	// start 2020-11-6 22:41:26
+
+		P1 01_尚硅谷_JavaSE面试题：自增变量 08:05 
+		P2 02_尚硅谷_JavaSE面试题：单例设计模式 32:05 				// done 2020-11-7 00:04:36
+
+2020-11-7
+
+	# JetBrains	全家桶激活方式： 打开IDE，直接将 jetbrains-agent.jar 拖拽进去，点击弹出框中的激活，重新启动即可。	
+
+	# visual-studio-2010下载地址: https://www.malavida.com/en/soft/visual-studio-2010/download
