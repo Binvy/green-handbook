@@ -5204,9 +5204,19 @@
 
 		P1 01_尚硅谷_JavaSE面试题：自增变量 08:05 
 		P2 02_尚硅谷_JavaSE面试题：单例设计模式 32:05 				// done 2020-11-7 00:04:36
+		P3 03_尚硅谷_JavaSE面试题：类初始化和实例初始化等 18:42 	// doen 2020-11-7 00:56:14
 
 2020-11-7
 
 	# JetBrains	全家桶激活方式： 打开IDE，直接将 jetbrains-agent.jar 拖拽进去，点击弹出框中的激活，重新启动即可。	
 
 	# visual-studio-2010下载地址: https://www.malavida.com/en/soft/visual-studio-2010/download
+
+	# windows下构建openJDK成功！ 									// done 2020-11-7 22:35:18
+
+2020-11-8
+
+	# windows下CLion	调试openjdk源码      失败 					// pass 2020-11-8 10:06:54
+
+	# 深入理解Java虚拟机————JVM高级特性与最佳实践 第3版
+
