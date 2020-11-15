@@ -5261,4 +5261,371 @@
 	# 《深入理解Java虚拟机————JVM高级特性与最佳实践 第3版》
 
 		第4章 虚拟机性能监控、故障处理工具 							// done 2020-11-14 17:55:23
-		第5章 调优案例分析与实战 									// done 2020-11-14 19:03:14			
+		第5章 调优案例分析与实战 									// done 2020-11-14 19:03:14		
+
+2020-11-15
+
+	# 《深入理解Java虚拟机————JVM高级特性与最佳实践 第3版》
+
+		第6章 类文件结构 											// done 2020-11-15 12:29:06
+
+			class: 
+
+				/**
+				 * @Description: 类文件结构测试类
+				 * @date 2019/9/16 22:02
+				 */
+				public class TestClass {
+
+					private int m;
+
+					public int inc() {
+						return m + 1;
+					}
+
+					public int ind() {
+						int x;
+						try {
+							x = 1;
+							return x;
+						} catch (Exception e) {
+							x = 2;
+							return x;
+						} finally {
+							x = 3;
+						}
+					}
+
+					public void onlyMe(Object o) {
+						synchronized (o) {
+							inc();
+						}
+					}
+
+				}
+
+			bytecode:
+			
+				// class version 52.0 (52)
+				// access flags 0x21
+				public class com/binvi/springboot/demo03/book/jvm/chapter6/TestClass {
+
+				  // compiled from: TestClass.java
+
+				  // access flags 0x2
+				  private I m
+
+				  // access flags 0x1
+				  public <init>()V
+				   L0
+				    LINENUMBER 9 L0
+				    ALOAD 0
+				    INVOKESPECIAL java/lang/Object.<init> ()V
+				    RETURN
+				   L1
+				    LOCALVARIABLE this Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass; L0 L1 0
+				    MAXSTACK = 1
+				    MAXLOCALS = 1
+
+				  // access flags 0x1
+				  public inc()I
+				   L0
+				    LINENUMBER 14 L0
+				    ALOAD 0
+				    GETFIELD com/binvi/springboot/demo03/book/jvm/chapter6/TestClass.m : I
+				    ICONST_1
+				    IADD
+				    IRETURN
+				   L1
+				    LOCALVARIABLE this Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass; L0 L1 0
+				    MAXSTACK = 2
+				    MAXLOCALS = 1
+
+				  // access flags 0x1
+				  public ind()I
+				    TRYCATCHBLOCK L0 L1 L2 java/lang/Exception
+				    TRYCATCHBLOCK L0 L1 L3 null
+				    TRYCATCHBLOCK L2 L4 L3 null
+				    TRYCATCHBLOCK L3 L5 L3 null
+				   L0
+				    LINENUMBER 20 L0
+				    ICONST_1
+				    ISTORE 1
+				   L6
+				    LINENUMBER 21 L6
+				    ILOAD 1
+				    ISTORE 2
+				   L1
+				    LINENUMBER 26 L1
+				    ICONST_3
+				    ISTORE 1
+				   L7
+				    LINENUMBER 21 L7
+				    ILOAD 2
+				    IRETURN
+				   L2
+				    LINENUMBER 22 L2
+				   FRAME SAME1 java/lang/Exception
+				    ASTORE 2
+				   L8
+				    LINENUMBER 23 L8
+				    ICONST_2
+				    ISTORE 1
+				   L9
+				    LINENUMBER 24 L9
+				    ILOAD 1
+				    ISTORE 3
+				   L4
+				    LINENUMBER 26 L4
+				    ICONST_3
+				    ISTORE 1
+				   L10
+				    LINENUMBER 24 L10
+				    ILOAD 3
+				    IRETURN
+				   L3
+				    LINENUMBER 26 L3
+				   FRAME SAME1 java/lang/Throwable
+				    ASTORE 4
+				   L5
+				    ICONST_3
+				    ISTORE 1
+				   L11
+				    LINENUMBER 27 L11
+				    ALOAD 4
+				    ATHROW
+				   L12
+				    LOCALVARIABLE x I L6 L2 1
+				    LOCALVARIABLE e Ljava/lang/Exception; L8 L3 2
+				    LOCALVARIABLE x I L9 L3 1
+				    LOCALVARIABLE this Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass; L0 L12 0
+				    LOCALVARIABLE x I L11 L12 1
+				    MAXSTACK = 1
+				    MAXLOCALS = 5
+
+				  // access flags 0x1
+				  public onlyMe(Ljava/lang/Object;)V
+				    TRYCATCHBLOCK L0 L1 L2 null
+				    TRYCATCHBLOCK L2 L3 L2 null
+				   L4
+				    LINENUMBER 31 L4
+				    ALOAD 1
+				    DUP
+				    ASTORE 2
+				    MONITORENTER
+				   L0
+				    LINENUMBER 32 L0
+				    ALOAD 0
+				    INVOKEVIRTUAL com/binvi/springboot/demo03/book/jvm/chapter6/TestClass.inc ()I
+				    POP
+				   L5
+				    LINENUMBER 33 L5
+				    ALOAD 2
+				    MONITOREXIT
+				   L1
+				    GOTO L6
+				   L2
+				   FRAME FULL [com/binvi/springboot/demo03/book/jvm/chapter6/TestClass java/lang/Object java/lang/Object] [java/lang/Throwable]
+				    ASTORE 3
+				    ALOAD 2
+				    MONITOREXIT
+				   L3
+				    ALOAD 3
+				    ATHROW
+				   L6
+				    LINENUMBER 34 L6
+				   FRAME CHOP 1
+				    RETURN
+				   L7
+				    LOCALVARIABLE this Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass; L4 L7 0
+				    LOCALVARIABLE o Ljava/lang/Object; L4 L7 1
+				    MAXSTACK = 2
+				    MAXLOCALS = 4
+				}
+
+			javap -verbose TestClass
+			
+				警告: 二进制文件TestClass包含com.binvi.springboot.demo03.book.jvm.chapter6.TestClass
+				Classfile /D:/workspace/springboot/springboot-vue-demo/demo03/target/classes/com/binvi/springboot/demo03/book/jvm/chapter6/TestClass.class
+				  Last modified 2020-11-15; size 978 bytes
+				  MD5 checksum 6bbcc32eb5d3b6ed0392ec5a98dcc37b
+				  Compiled from "TestClass.java"
+				public class com.binvi.springboot.demo03.book.jvm.chapter6.TestClass
+				  minor version: 0
+				  major version: 52
+				  flags: ACC_PUBLIC, ACC_SUPER
+				Constant pool:
+				   #1 = Methodref          #6.#33         // java/lang/Object."<init>":()V
+				   #2 = Fieldref           #5.#34         // com/binvi/springboot/demo03/book/jvm/chapter6/TestClass.m:I
+				   #3 = Class              #35            // java/lang/Exception
+				   #4 = Methodref          #5.#36         // com/binvi/springboot/demo03/book/jvm/chapter6/TestClass.inc:()I
+				   #5 = Class              #37            // com/binvi/springboot/demo03/book/jvm/chapter6/TestClass
+				   #6 = Class              #38            // java/lang/Object
+				   #7 = Utf8               m
+				   #8 = Utf8               I
+				   #9 = Utf8               <init>
+				  #10 = Utf8               ()V
+				  #11 = Utf8               Code
+				  #12 = Utf8               LineNumberTable
+				  #13 = Utf8               LocalVariableTable
+				  #14 = Utf8               this
+				  #15 = Utf8               Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass;
+				  #16 = Utf8               inc
+				  #17 = Utf8               ()I
+				  #18 = Utf8               ind
+				  #19 = Utf8               x
+				  #20 = Utf8               e
+				  #21 = Utf8               Ljava/lang/Exception;
+				  #22 = Utf8               StackMapTable
+				  #23 = Class              #35            // java/lang/Exception
+				  #24 = Class              #39            // java/lang/Throwable
+				  #25 = Utf8               onlyMe
+				  #26 = Utf8               (Ljava/lang/Object;)V
+				  #27 = Utf8               o
+				  #28 = Utf8               Ljava/lang/Object;
+				  #29 = Class              #37            // com/binvi/springboot/demo03/book/jvm/chapter6/TestClass
+				  #30 = Class              #38            // java/lang/Object
+				  #31 = Utf8               SourceFile
+				  #32 = Utf8               TestClass.java
+				  #33 = NameAndType        #9:#10         // "<init>":()V
+				  #34 = NameAndType        #7:#8          // m:I
+				  #35 = Utf8               java/lang/Exception
+				  #36 = NameAndType        #16:#17        // inc:()I
+				  #37 = Utf8               com/binvi/springboot/demo03/book/jvm/chapter6/TestClass
+				  #38 = Utf8               java/lang/Object
+				  #39 = Utf8               java/lang/Throwable
+				{
+				  public com.binvi.springboot.demo03.book.jvm.chapter6.TestClass();
+				    descriptor: ()V
+				    flags: ACC_PUBLIC
+				    Code:
+				      stack=1, locals=1, args_size=1
+				         0: aload_0
+				         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+				         4: return
+				      LineNumberTable:
+				        line 9: 0
+				      LocalVariableTable:
+				        Start  Length  Slot  Name   Signature
+				            0       5     0  this   Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass;
+
+				  public int inc();
+				    descriptor: ()I
+				    flags: ACC_PUBLIC
+				    Code:
+				      stack=2, locals=1, args_size=1
+				         0: aload_0
+				         1: getfield      #2                  // Field m:I
+				         4: iconst_1
+				         5: iadd
+				         6: ireturn
+				      LineNumberTable:
+				        line 14: 0
+				      LocalVariableTable:
+				        Start  Length  Slot  Name   Signature
+				            0       7     0  this   Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass;
+
+				  public int ind();
+				    descriptor: ()I
+				    flags: ACC_PUBLIC
+				    Code:
+				      stack=1, locals=5, args_size=1
+				         0: iconst_1
+				         1: istore_1
+				         2: iload_1
+				         3: istore_2
+				         4: iconst_3
+				         5: istore_1
+				         6: iload_2
+				         7: ireturn
+				         8: astore_2
+				         9: iconst_2
+				        10: istore_1
+				        11: iload_1
+				        12: istore_3
+				        13: iconst_3
+				        14: istore_1
+				        15: iload_3
+				        16: ireturn
+				        17: astore        4
+				        19: iconst_3
+				        20: istore_1
+				        21: aload         4
+				        23: athrow
+				      Exception table:
+				         from    to  target type
+				             0     4     8   Class java/lang/Exception
+				             0     4    17   any
+				             8    13    17   any
+				            17    19    17   any
+				      LineNumberTable:
+				        line 20: 0
+				        line 21: 2
+				        line 26: 4
+				        line 21: 6
+				        line 22: 8
+				        line 23: 9
+				        line 24: 11
+				        line 26: 13
+				        line 24: 15
+				        line 26: 17
+				        line 27: 21
+				      LocalVariableTable:
+				        Start  Length  Slot  Name   Signature
+				            2       6     1     x   I
+				            9       8     2     e   Ljava/lang/Exception;
+				           11       6     1     x   I
+				            0      24     0  this   Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass;
+				           21       3     1     x   I
+				      StackMapTable: number_of_entries = 2
+				        frame_type = 72 /* same_locals_1_stack_item */
+				          stack = [ class java/lang/Exception ]
+				        frame_type = 72 /* same_locals_1_stack_item */
+				          stack = [ class java/lang/Throwable ]
+
+				  public void onlyMe(java.lang.Object);
+				    descriptor: (Ljava/lang/Object;)V
+				    flags: ACC_PUBLIC
+				    Code:
+				      stack=2, locals=4, args_size=2
+				         0: aload_1
+				         1: dup
+				         2: astore_2
+				         3: monitorenter
+				         4: aload_0
+				         5: invokevirtual #4                  // Method inc:()I
+				         8: pop
+				         9: aload_2
+				        10: monitorexit
+				        11: goto          19
+				        14: astore_3
+				        15: aload_2
+				        16: monitorexit
+				        17: aload_3
+				        18: athrow
+				        19: return
+				      Exception table:
+				         from    to  target type
+				             4    11    14   any
+				            14    17    14   any
+				      LineNumberTable:
+				        line 31: 0
+				        line 32: 4
+				        line 33: 9
+				        line 34: 19
+				      LocalVariableTable:
+				        Start  Length  Slot  Name   Signature
+				            0      20     0  this   Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass;
+				            0      20     1     o   Ljava/lang/Object;
+				      StackMapTable: number_of_entries = 2
+				        frame_type = 255 /* full_frame */
+				          offset_delta = 14
+				          locals = [ class com/binvi/springboot/demo03/book/jvm/chapter6/TestClass, class java/lang/Object, class java/lang/Object ]
+				          stack = [ class java/lang/Throwable ]
+				        frame_type = 250 /* chop */
+				          offset_delta = 4
+				}
+				SourceFile: "TestClass.java"
+	
+	
+			
