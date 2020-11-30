@@ -284,7 +284,7 @@ Preface to the Java SE 8 Edition xix
 			11.2.3 Exception Checking 350
 		11.3 Run-Time Handling of an Exception 352
 		
-	12 Execution 357
+	12 Execution 357 												// doen 2020-11-30 21:29:50
 		12.1 Java Virtual Machine Startup 357
 			12.1.1 Load the Class Test 358
 			12.1.2 Link Test: Verify, Prepare, (Optionally) Resolve 358
@@ -306,7 +306,7 @@ Preface to the Java SE 8 Edition xix
 		12.7 Unloading of Classes and Interfaces 378
 		12.8 Program Exit 379
 		
-	13 Binary Compatibility 381
+	13 Binary Compatibility 381 									// done 2020-11-30 22:33:40
 
 		13.1 The Form of a Binary 382
 
