@@ -5682,3 +5682,11 @@
 	# 《jls8》	
 
 		14 Blocks and Statements 411 							// done 2020-12-1 23:18:06
+
+2020-12-2		
+
+		15 Expressions 465	
+
+			15.11 Field Access Expressions 500 					// done 2020-12-2 22:19:41
+
+			15.12 Method Invocation Expressions 505 			// done 2020-12-2 23:15:14
