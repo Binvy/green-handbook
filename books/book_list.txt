@@ -50,6 +50,10 @@ done：
 
 	asm: https://asm.ow2.io/asm4-guide.pdf							// start 2020-9-10 09:05:58 done 2020-9-15 15:48:00
 
+	深入理解Java虚拟机————JVM高级特性与最佳实践 第3版 					// start 2020-11-6 13:30:00 done 2020-11-30 20:08:06
+
+	《Java8 函数式编程》 												// start 2020-12-5 10:06:40 done 2020-12-6 20:06:12		
+
 doing：
 
 	《TCP/IP详解：卷1》												// doing start: 2019-8-20 16:43:51 now：chapter13 2019-8-28 20:58:41 TODO
@@ -74,17 +78,49 @@ doing：
 
 	《数据结构》 （用面向对象方法与C++语言描述）（第2版） 					// start 2020-9-26 09:33:25
 
-	深入理解Java虚拟机————JVM高级特性与最佳实践 第3版 					// start 2020-11-6 13:30:00
-
 todo:
+
+	《Java核心编程1 11rd》
+
+	《Java核心编程2 11rd》
+
+	《Java编程思想》
+
+	《Effective Java 3rd》												// DD 2020-12-31
+
+	《数据结构与算法 Java语言编写》 										
+
+	《Head First设计模式》
+
+	《重构——改善既有代码的设计》 										
+
+	《Spring实战》
+
+	《SpringBoot编程思想》
+
+	《Spring Cloud开发入门到实战》
+
+	《Java微服务测试》 													// DD 2020-01-31
+
+	《Java网咯编程》
 
 	《Netty实战》														// ★★★★★
 
+	《深入理解Apache Dubbo与实战》
+
+	《Redis实战》
+
+	《MongoDB从入门到商业实战》
+
+	《Elasticsearch实战》 
+
+	《高性能MySQL》
+
+	《MySQL技术内幕 InnoDB存储引擎》
+
+ others:
+
 	《Spring技术内幕》
-
-	《Spring in Action》
-
-	《重构——改善既有代码的设计》
 
 	《Java 8 in Action》
 
@@ -96,7 +132,16 @@ todo:
 
 	struts-reference-guide 		
 
+ 计算机基础：
 
-	
+ 	《计算机操作系统》
 
+ 	《计算机网络》	
 
+ 	《计算机组成原理》
+
+ 	《数据结构与算法》
+
+ 	《TCP/IP》
+
+ 	《HTTP》
