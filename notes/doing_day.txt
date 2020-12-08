@@ -5694,3 +5694,9 @@
 2020-12-6
 
 	# 《Java8 函数式编程》 											// start 2020-12-5 10:06:40 done 2020-12-6 20:06:12			
+
+2020-12-8
+
+	# 服务器JVM内存溢出问题排查：
+
+		https://docs.oracle.com/javase/8/docs/technotes/guides/	
