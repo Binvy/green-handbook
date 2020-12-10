@@ -219,7 +219,7 @@ Preface to the Java SE 8 Edition xix
 			8.9.2 Enum Body Declarations 271
 			8.9.3 Enum Members 273
 
-	9 Interfaces 279
+	9 Interfaces 279 								// done 2020-10-15 08:30:56		
 
 		9.1 Interface Declarations 280
 			9.1.1 Interface Modifiers 280
