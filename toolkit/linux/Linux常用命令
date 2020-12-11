@@ -4,6 +4,8 @@ linux常用命令：
 
 		h 可以显示更多帮助
 
+		top -Hp pid 或者 ps -Lfp pid 可以查看进程下的线程
+
 	free: 显示系统的内存和交换空间的使用状态
 
 		free -m -g -h -t
@@ -77,6 +79,10 @@ JVM常用监控命令：
 		jstat -gc pid 250 20
 
 	jmap: java内存映像工具
+
+		jmap -heap pid
+
+		jmap -histo:live pid | more
 
 		jmap -dump:format=b,file=tmp/java_pid.hprof pid
 
