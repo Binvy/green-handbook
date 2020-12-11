@@ -219,7 +219,11 @@ Preface to the Java SE 8 Edition xix
 			8.9.2 Enum Body Declarations 271
 			8.9.3 Enum Members 273
 
+<<<<<<< HEAD
 	9 Interfaces 279 								// done 2020-10-15 08:30:56		
+=======
+	9 Interfaces 279 								// done 2020-11-11 23:48:14
+>>>>>>> d0213421cb369694e417186a26135b8ea9fc8720
 
 		9.1 Interface Declarations 280
 			9.1.1 Interface Modifiers 280
@@ -284,7 +288,7 @@ Preface to the Java SE 8 Edition xix
 			11.2.3 Exception Checking 350
 		11.3 Run-Time Handling of an Exception 352
 		
-	12 Execution 357
+	12 Execution 357 												// doen 2020-11-30 21:29:50
 		12.1 Java Virtual Machine Startup 357
 			12.1.1 Load the Class Test 358
 			12.1.2 Link Test: Verify, Prepare, (Optionally) Resolve 358
@@ -306,7 +310,7 @@ Preface to the Java SE 8 Edition xix
 		12.7 Unloading of Classes and Interfaces 378
 		12.8 Program Exit 379
 		
-	13 Binary Compatibility 381
+	13 Binary Compatibility 381 									// done 2020-11-30 22:33:40
 
 		13.1 The Form of a Binary 382
 
@@ -351,7 +355,7 @@ Preface to the Java SE 8 Edition xix
 			13.5.6 Interface Method Declarations 408
 			13.5.7 Evolution of Annotation Types 409
 		
-	14 Blocks and Statements 411
+	14 Blocks and Statements 411 								// done 2020-12-1 23:18:06
 		14.1 Normal and Abrupt Completion of Statements 411
 		14.2 Blocks 413
 		14.3 Local Class Declarations 413
@@ -416,15 +420,15 @@ Preface to the Java SE 8 Edition xix
 			15.9.4 Run-Time Evaluation of Class Instance Creation Expressions 490
 			15.9.5 Anonymous Class Declarations 491
 				15.9.5.1 Anonymous Constructors 491
-		15.10 Array Creation and Access Expressions 493
+		15.10 Array Creation and Access Expressions 493 						// done 2020-12-2 21:58:57
 			15.10.1 Array Creation Expressions 493
 			15.10.2 Run-Time Evaluation of Array Creation Expressions 494
 			15.10.3 Array Access Expressions 497
 			15.10.4 Run-Time Evaluation of Array Access Expressions 498
-		15.11 Field Access Expressions 500
+		15.11 Field Access Expressions 500 										// done 2020-12-2 22:19:41
 			15.11.1 Field Access Using a Primary 500
 			15.11.2 Accessing Superclass Members using super 503
-		15.12 Method Invocation Expressions 505
+		15.12 Method Invocation Expressions 505 								// done 2020-12-2 23:15:14
 			15.12.1 Compile-Time Step 1: Determine Class or Interface to Search 506
 			15.12.2 Compile-Time Step 2: Determine Method Signature 509
 				15.12.2.1 Identify Potentially Applicable Methods 515
@@ -433,7 +437,7 @@ Preface to the Java SE 8 Edition xix
 				15.12.2.4 Phase 3: Identify Methods Applicable by Variable Arity Invocation 519
 				15.12.2.5 Choosing the Most Specific Method 520
 				15.12.2.6 Method Invocation Type 523
-			15.12.3 Compile-Time Step 3: Is the Chosen Method Appropriate? 523
+			15.12.3 Compile-Time Step 3: Is the Chosen Method Appropriate? 523 	// done 2020-12-2 23:03:41
 			15.12.4 Run-Time Evaluation of Method Invocation 526
 				15.12.4.1 Compute Target Reference (If Necessary) 527
 				15.12.4.2 Evaluate Arguments 528

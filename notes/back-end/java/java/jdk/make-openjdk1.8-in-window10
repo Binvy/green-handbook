@@ -1,0 +1,118 @@
+window10编译openjdk1.8
+
+	说明： 在window10系统下，构建openJdk1.8
+
+	# 准备： 参考openjdk下的文件README-builds.html
+
+		- Cygwin: http://www.cygwin.com/setup-x86_64.exe （官方最新版本即可）
+
+			预装插件：  （有些已经默认添加的，就不需要查找勾选了）
+
+				Binary Name	Category		Package		Description
+				ar.exe		Devel			binutils	The GNU assembler, linker and binary utilities
+				make.exe	Devel			make		The GNU version of the 'make' utility built for CYGWIN
+				m4.exe		Interpreters	m4			GNU implementation of the traditional Unix macro processor
+				cpio.exe	Utils			cpio		A program to manage archives of files
+				gawk.exe	Utils			awk			Pattern-directed scanning and processing language
+				file.exe	Utils			file		Determines file type using 'magic' numbers
+				zip.exe		Archive			zip			Package and compress (archive) files
+				unzip.exe	Archive			unzip		Extract compressed files in a ZIP archive
+				free.exe	System			procps		Display amount of free and used memory in the system
+
+		- Bootstrap JDK:  http://www.oracle.com/technetwork/java/javase/downloads/index.html 	（构建1.8下载上一版本jdk1.7即可）
+
+		- freestyle2.7: https://sourceforge.net/projects/gtk-mingw/files/freetype/ （可以在网上直接下载windows用的已编译好的freetype.lib, freetype.dll）
+
+			需要配置环境变量： 
+
+				FREETYPE_CFLAGS = E:\freetype-2.7\include
+
+				FREETYPE_LIBS = E:\freetype-2.7\lib\freetype.lib
+
+		- VS2010: https://www.malavida.com/en/soft/visual-studio-2010/download （jdk1.8需要VS2010，下载安装完之后需要重启电脑，才能使环境变量配置生效）
+
+			重启电脑确保环境变量已生效：
+
+				VS100COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+
+		- openJDK: http://hg.openjdk.java.net/jdk8/jdk8
+
+	# 构建
+	
+		- 进入openjdk目录
+
+			cd /cygdrive/d/workspace/openjdk/ 
+
+		- 环境配置检查： e/freetype-2.7/lib下存放下载/编译好的freetype.lib, freetype.dll文件
+
+			./configure --with-freetype=/cygdrive/e/freetype-2.7/ --with-target-bits=64 --enable-debug
+
+		- 构建
+
+			make all	
+
+		- 输出日志：成功
+
+				----- Build times -------
+				Start 2020-11-07 21:38:26
+				End   2020-11-07 21:58:34
+				00:00:37 corba
+				00:01:06 demos
+				00:02:25 docs
+				00:02:07 hotspot
+				00:02:08 images
+				00:00:24 jaxp
+				00:01:08 jaxws
+				00:08:59 jdk
+				00:00:35 langtools
+				00:00:27 nashorn
+				00:20:08 TOTAL
+				-------------------------
+	
+
+	# 问题：
+	
+		## 	Your cygwin is too old. You are running 3.1.7(0.340/5/3), but at least cygwin 1.7 is required. Please upgrade.
+
+			原因： cygwin版本检查未通过，但其实不会影响构建过程。
+
+			解决方法：
+
+				找到可执行文件 openjdk\common\autoconf\generated-configure.sh 注释掉检查cygwin版本的脚本代码块即可。
+
+					#    WINDOWS_ENV_VENDOR='cygwin'
+					#    WINDOWS_ENV_VERSION="$CYGWIN_VERSION"
+
+					#    CYGWIN_VERSION_OK=`$ECHO $CYGWIN_VERSION | $GREP ^1.7.`
+					#    if test "x$CYGWIN_VERSION_OK" = x; then
+					#      { $as_echo "$as_me:${as_lineno-$LINENO}: Your cygwin is too old. You are running $CYGWIN_VERSION, but at least cygwin 1.7 is required. Please upgrade." >&5
+					#$as_echo "$as_me: Your cygwin is too old. You are running $CYGWIN_VERSION, but at least cygwin 1.7 is required. Please upgrade." >&6;}
+					#      as_fn_error $? "Cannot continue" "$LINENO" 5
+					#    fi
+
+		## Cannot locate a valid Visual Studio or Windows SDK installation on disk,
+
+			原因： 找不到VS2010
+
+			解决方法： 由于找不到VS2019代替的方法，只能安装VS2010版本。 VS2010下载地址：https://www.malavida.com/en/soft/visual-studio-2010/download
+
+		## langtools\src\share\classes\com\sun\tools\javac\parser\JavacParser.java:715:
+		
+			删除环境变量中的JAVA_HOME、CLASSPATH
+
+		## make[2]: *** [CreateJars.gmk:268: /cygdrive/d/workspace/openjdk/build/windows-x86_64-normal-server-fastdebug/images/lib/_the.rt.jar.contents] Error 1
+			make[2]: *** Waiting for unfinished jobs....
+			make[1]: *** [BuildJdk.gmk:101: images] Error 2
+			make: *** [/cygdrive/d/workspace/openjdk//make/Main.gmk:136: images-only] Error 2
+
+			原因：原因是Linux和Winodws换行符不同，造成了之后再编译images target时失败，因为在gmk中会通过grep命令将class文件导出，而如果不做改动则会因换行符问题导致文件大小为零，也就无法进行下一步。
+
+			解决方法：
+				cd jdk/make
+				vi CreateJars.gmk
+				在268行，有两处：.class
+				之前插入一个特殊字符。做法如下：
+				i进入编辑模式，CTRL+V，CTRL+M。按ESC键。
+
+		
+

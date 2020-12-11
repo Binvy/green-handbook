@@ -5132,3 +5132,575 @@
 		14. Implement a custom codec 				// done 2020-11-2 20:54:41
 		15. Choosing the right thread model 		// done 2020-11-2 21:38:27
 		16. De-register / Re-register with EventLoop// done 2020-11-2 21:57:50
+
+2020-11-3
+
+	# 尚硅谷ActiveMQ教程(MQ消息中间件快速入门) 		// start 2020-11-3 22:54:18		
+
+		https://www.bilibili.com/video/BV164411G7aB
+
+		P1 01_前言说明 09:28 
+		P2 02_两种讲授闲聊 07:20 
+		P3 03_MQ的产品学习说明 11:53 
+		P4 04_为什么要引入MQ_上 15:09 
+		P5 05_为什么要引入MQ_下 12:05 
+		P6 06_MQ的作用定义 10:06 
+		P7 07_ActiveMQ官网介绍和下载 11:15
+		P8 08_ActiveMQ在Linux下安装 14:58 
+		P9 09_ActiveMQ安装后的控制台访问 09:50 
+		P10 10_Java编码MQ标准API讲解 16:27 
+		P11 11_消息生产者编码 20:06 
+		P12 12_消息消费者编码 10:01 
+		P13 13_消息消费者receive方法说明 04:40 		// done 2020-11-4 00:55:35
+
+2020-11-4
+
+	# 尚硅谷2020最新版Java面试题第三季（java大厂面试题，周阳主讲）	// start 2020-11-4 22:52:19 		
+
+		https://www.bilibili.com/video/BV1Hy4y1B78T
+
+		P1 00_前言闲聊和课程说明 25:06 
+		P2 01_字符串常量Java内部加载-上 07:51 
+		P3 02_字符串常量Java内部加载-下 15:24 
+		P4 03_闲聊力扣算法第一题 06:49 
+		P5 04_TwoSum暴力解法 09:31 
+		P6 05_TwoSum优化解法 13:17 
+		P7 06_闲聊AQS面试 06:03 
+		P8 07_可重入锁理论 06:34 
+		P9 08_可重入锁的代码验证-上 04:09 
+		P10 09_可重入锁的代码验证-下 10:04 
+		P11 10_LockSupport是什么 07:07 
+		P12 11_waitNotify限制 12:00 
+		P13 12_awaitSignal限制 06:22 
+		P14 13_LockSupport方法介绍 05:25 
+		P15 14_LockSupport案例解析 12:13 						// done 2020-11-4 23:53:28
+
+2020-11-5		
+
+		P16 15_AQS理论初步 11:03 
+		P17 16_AQS能干嘛 10:12 
+		P18 17_AQS源码体系-上 09:19 
+		P19 18_AQS源码体系-下 11:32 
+		P20 19_AQS源码深度解读01 13:45 
+		P21 20_AQS源码深度解读02 11:14 
+		P22 21_AQS源码深度解读03 07:56 
+		P23 22_AQS源码深度解读04 10:34 
+		P24 23_AQS源码深度解读05 09:19 
+		P25 24_AQS源码深度解读06 11:39 
+		P26 25_AQS源码深度解读07 15:56 
+		P27 26_AQS小总结 12:12 
+		P28 27_Aop的题目说明要求 05:38 
+		P29 28_spring4下的aop测试案例 07:35 
+		P30 29_spring4下的aop测试结果 04:41 
+		P31 30_spring5下的aop测试 06:55 
+		P32 31_spring循环依赖题目说明 10:47 
+		P33 32_spring循环依赖纯java代码验证案例 06:45 
+		P34 33_spring循环依赖bug演示 10:44 
+		P35 34_spring循环依赖debug前置知识 10:44 					// done 2020-11-5 09:00:31
+
+2020-11-6
+
+	# 尚硅谷经典Java面试题第一季(java面试精讲)  	https://www.bilibili.com/video/BV1Eb411P7bP 	// start 2020-11-6 22:41:26
+
+		P1 01_尚硅谷_JavaSE面试题：自增变量 08:05 
+		P2 02_尚硅谷_JavaSE面试题：单例设计模式 32:05 				// done 2020-11-7 00:04:36
+		P3 03_尚硅谷_JavaSE面试题：类初始化和实例初始化等 18:42 	// doen 2020-11-7 00:56:14
+
+2020-11-7
+
+	# JetBrains	全家桶激活方式： 打开IDE，直接将 jetbrains-agent.jar 拖拽进去，点击弹出框中的激活，重新启动即可。	
+
+	# visual-studio-2010下载地址: https://www.malavida.com/en/soft/visual-studio-2010/download
+
+	# windows下构建openJDK成功！ 									// done 2020-11-7 22:35:18
+
+2020-11-8
+
+	# windows下CLion	调试openjdk源码      失败 					// pass 2020-11-8 10:06:54
+
+	# 深入理解Java虚拟机————JVM高级特性与最佳实践 第3版
+
+		第3章 	// done 2020-11-8 16:48:48
+
+2020-11-9
+
+	# 尚硅谷经典Java面试题第一季(java面试精讲)  	https://www.bilibili.com/video/BV1Eb411P7bP 	
+
+ 		P4 04_尚硅谷_JavaSE面试题：方法的参数传递机制 16:34 
+ 		P5 05_尚硅谷_JavaSE面试题：递归与迭代 17:39 
+ 		P6 06_尚硅谷_JavaSE面试题：成员变量与局部变量 24:56 		// done 2020-11-9 23:25:33
+
+2020-11-10
+
+	# 尚硅谷经典Java面试题第一季(java面试精讲)  	https://www.bilibili.com/video/BV1Eb411P7bP 	// done 2020-11-10 21:33:40
+
+		P7 07_尚硅谷_SSM面试题_Spring Bean的作用域之间有什么区别 05:29 
+		P8 08_尚硅谷_SSM面试题_Spring支持的常用数据库事务传播属性和... 29:59 
+		P9 09_尚硅谷_SSM面试题_SpringMVC中如何解决POST请求中文乱码问... 09:48 
+		P10 10_尚硅谷_SSM面试题_简单的谈一下SpringMVC的工作流程 15:10 
+		P11 11_尚硅谷_SSM面试题_MyBatis中当实体类中的属性名和表中的字... 10:44 
+		P12 12_尚硅谷_Java高级_Linux常用服务类相关命令 07:20 
+		P13 13_尚硅谷_Java高级_git分支相关命令 06:52 
+		P14 14_尚硅谷_Java高级_redis持久化 05:04 
+		P15 15_尚硅谷_Java高级_Mysql什么时候建索引 06:33 
+		P16 16_尚硅谷_Java高级_JVM垃圾回收机制 06:29 
+		P17 17_尚硅谷_项目面试题_redis 在项目中的使用场景 12:46 
+		P18 18_尚硅谷_项目面试题_es与solr的区别 13:11 
+		P19 19_尚硅谷_项目面试题_单点登录 11:42 
+		P20 20_尚硅谷_项目面试题_购物车 13:03 
+		P21 21_尚硅谷_项目面试题_消息队列 11:49 					// done 2020-11-10 21:32:51
+
+2020-11-11
+	
+	# jls8
+
+		9 Interfaces 279 										// done 2020-11-11 23:48:14	
+
+2020-11-14
+
+	# 《深入理解Java虚拟机————JVM高级特性与最佳实践 第3版》
+
+		第4章 虚拟机性能监控、故障处理工具 							// done 2020-11-14 17:55:23
+		第5章 调优案例分析与实战 									// done 2020-11-14 19:03:14		
+
+2020-11-15
+
+	# 《深入理解Java虚拟机————JVM高级特性与最佳实践 第3版》
+
+		第6章 类文件结构 											// done 2020-11-15 12:29:06
+
+			class: 
+
+				/**
+				 * @Description: 类文件结构测试类
+				 * @date 2019/9/16 22:02
+				 */
+				public class TestClass {
+
+					private int m;
+
+					public int inc() {
+						return m + 1;
+					}
+
+					public int ind() {
+						int x;
+						try {
+							x = 1;
+							return x;
+						} catch (Exception e) {
+							x = 2;
+							return x;
+						} finally {
+							x = 3;
+						}
+					}
+
+					public void onlyMe(Object o) {
+						synchronized (o) {
+							inc();
+						}
+					}
+
+				}
+
+			bytecode:
+			
+				// class version 52.0 (52)
+				// access flags 0x21
+				public class com/binvi/springboot/demo03/book/jvm/chapter6/TestClass {
+
+				  // compiled from: TestClass.java
+
+				  // access flags 0x2
+				  private I m
+
+				  // access flags 0x1
+				  public <init>()V
+				   L0
+				    LINENUMBER 9 L0
+				    ALOAD 0
+				    INVOKESPECIAL java/lang/Object.<init> ()V
+				    RETURN
+				   L1
+				    LOCALVARIABLE this Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass; L0 L1 0
+				    MAXSTACK = 1
+				    MAXLOCALS = 1
+
+				  // access flags 0x1
+				  public inc()I
+				   L0
+				    LINENUMBER 14 L0
+				    ALOAD 0
+				    GETFIELD com/binvi/springboot/demo03/book/jvm/chapter6/TestClass.m : I
+				    ICONST_1
+				    IADD
+				    IRETURN
+				   L1
+				    LOCALVARIABLE this Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass; L0 L1 0
+				    MAXSTACK = 2
+				    MAXLOCALS = 1
+
+				  // access flags 0x1
+				  public ind()I
+				    TRYCATCHBLOCK L0 L1 L2 java/lang/Exception
+				    TRYCATCHBLOCK L0 L1 L3 null
+				    TRYCATCHBLOCK L2 L4 L3 null
+				    TRYCATCHBLOCK L3 L5 L3 null
+				   L0
+				    LINENUMBER 20 L0
+				    ICONST_1
+				    ISTORE 1
+				   L6
+				    LINENUMBER 21 L6
+				    ILOAD 1
+				    ISTORE 2
+				   L1
+				    LINENUMBER 26 L1
+				    ICONST_3
+				    ISTORE 1
+				   L7
+				    LINENUMBER 21 L7
+				    ILOAD 2
+				    IRETURN
+				   L2
+				    LINENUMBER 22 L2
+				   FRAME SAME1 java/lang/Exception
+				    ASTORE 2
+				   L8
+				    LINENUMBER 23 L8
+				    ICONST_2
+				    ISTORE 1
+				   L9
+				    LINENUMBER 24 L9
+				    ILOAD 1
+				    ISTORE 3
+				   L4
+				    LINENUMBER 26 L4
+				    ICONST_3
+				    ISTORE 1
+				   L10
+				    LINENUMBER 24 L10
+				    ILOAD 3
+				    IRETURN
+				   L3
+				    LINENUMBER 26 L3
+				   FRAME SAME1 java/lang/Throwable
+				    ASTORE 4
+				   L5
+				    ICONST_3
+				    ISTORE 1
+				   L11
+				    LINENUMBER 27 L11
+				    ALOAD 4
+				    ATHROW
+				   L12
+				    LOCALVARIABLE x I L6 L2 1
+				    LOCALVARIABLE e Ljava/lang/Exception; L8 L3 2
+				    LOCALVARIABLE x I L9 L3 1
+				    LOCALVARIABLE this Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass; L0 L12 0
+				    LOCALVARIABLE x I L11 L12 1
+				    MAXSTACK = 1
+				    MAXLOCALS = 5
+
+				  // access flags 0x1
+				  public onlyMe(Ljava/lang/Object;)V
+				    TRYCATCHBLOCK L0 L1 L2 null
+				    TRYCATCHBLOCK L2 L3 L2 null
+				   L4
+				    LINENUMBER 31 L4
+				    ALOAD 1
+				    DUP
+				    ASTORE 2
+				    MONITORENTER
+				   L0
+				    LINENUMBER 32 L0
+				    ALOAD 0
+				    INVOKEVIRTUAL com/binvi/springboot/demo03/book/jvm/chapter6/TestClass.inc ()I
+				    POP
+				   L5
+				    LINENUMBER 33 L5
+				    ALOAD 2
+				    MONITOREXIT
+				   L1
+				    GOTO L6
+				   L2
+				   FRAME FULL [com/binvi/springboot/demo03/book/jvm/chapter6/TestClass java/lang/Object java/lang/Object] [java/lang/Throwable]
+				    ASTORE 3
+				    ALOAD 2
+				    MONITOREXIT
+				   L3
+				    ALOAD 3
+				    ATHROW
+				   L6
+				    LINENUMBER 34 L6
+				   FRAME CHOP 1
+				    RETURN
+				   L7
+				    LOCALVARIABLE this Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass; L4 L7 0
+				    LOCALVARIABLE o Ljava/lang/Object; L4 L7 1
+				    MAXSTACK = 2
+				    MAXLOCALS = 4
+				}
+
+			javap -verbose TestClass
+			
+				警告: 二进制文件TestClass包含com.binvi.springboot.demo03.book.jvm.chapter6.TestClass
+				Classfile /D:/workspace/springboot/springboot-vue-demo/demo03/target/classes/com/binvi/springboot/demo03/book/jvm/chapter6/TestClass.class
+				  Last modified 2020-11-15; size 978 bytes
+				  MD5 checksum 6bbcc32eb5d3b6ed0392ec5a98dcc37b
+				  Compiled from "TestClass.java"
+				public class com.binvi.springboot.demo03.book.jvm.chapter6.TestClass
+				  minor version: 0
+				  major version: 52
+				  flags: ACC_PUBLIC, ACC_SUPER
+				Constant pool:
+				   #1 = Methodref          #6.#33         // java/lang/Object."<init>":()V
+				   #2 = Fieldref           #5.#34         // com/binvi/springboot/demo03/book/jvm/chapter6/TestClass.m:I
+				   #3 = Class              #35            // java/lang/Exception
+				   #4 = Methodref          #5.#36         // com/binvi/springboot/demo03/book/jvm/chapter6/TestClass.inc:()I
+				   #5 = Class              #37            // com/binvi/springboot/demo03/book/jvm/chapter6/TestClass
+				   #6 = Class              #38            // java/lang/Object
+				   #7 = Utf8               m
+				   #8 = Utf8               I
+				   #9 = Utf8               <init>
+				  #10 = Utf8               ()V
+				  #11 = Utf8               Code
+				  #12 = Utf8               LineNumberTable
+				  #13 = Utf8               LocalVariableTable
+				  #14 = Utf8               this
+				  #15 = Utf8               Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass;
+				  #16 = Utf8               inc
+				  #17 = Utf8               ()I
+				  #18 = Utf8               ind
+				  #19 = Utf8               x
+				  #20 = Utf8               e
+				  #21 = Utf8               Ljava/lang/Exception;
+				  #22 = Utf8               StackMapTable
+				  #23 = Class              #35            // java/lang/Exception
+				  #24 = Class              #39            // java/lang/Throwable
+				  #25 = Utf8               onlyMe
+				  #26 = Utf8               (Ljava/lang/Object;)V
+				  #27 = Utf8               o
+				  #28 = Utf8               Ljava/lang/Object;
+				  #29 = Class              #37            // com/binvi/springboot/demo03/book/jvm/chapter6/TestClass
+				  #30 = Class              #38            // java/lang/Object
+				  #31 = Utf8               SourceFile
+				  #32 = Utf8               TestClass.java
+				  #33 = NameAndType        #9:#10         // "<init>":()V
+				  #34 = NameAndType        #7:#8          // m:I
+				  #35 = Utf8               java/lang/Exception
+				  #36 = NameAndType        #16:#17        // inc:()I
+				  #37 = Utf8               com/binvi/springboot/demo03/book/jvm/chapter6/TestClass
+				  #38 = Utf8               java/lang/Object
+				  #39 = Utf8               java/lang/Throwable
+				{
+				  public com.binvi.springboot.demo03.book.jvm.chapter6.TestClass();
+				    descriptor: ()V
+				    flags: ACC_PUBLIC
+				    Code:
+				      stack=1, locals=1, args_size=1
+				         0: aload_0
+				         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+				         4: return
+				      LineNumberTable:
+				        line 9: 0
+				      LocalVariableTable:
+				        Start  Length  Slot  Name   Signature
+				            0       5     0  this   Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass;
+
+				  public int inc();
+				    descriptor: ()I
+				    flags: ACC_PUBLIC
+				    Code:
+				      stack=2, locals=1, args_size=1
+				         0: aload_0
+				         1: getfield      #2                  // Field m:I
+				         4: iconst_1
+				         5: iadd
+				         6: ireturn
+				      LineNumberTable:
+				        line 14: 0
+				      LocalVariableTable:
+				        Start  Length  Slot  Name   Signature
+				            0       7     0  this   Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass;
+
+				  public int ind();
+				    descriptor: ()I
+				    flags: ACC_PUBLIC
+				    Code:
+				      stack=1, locals=5, args_size=1
+				         0: iconst_1
+				         1: istore_1
+				         2: iload_1
+				         3: istore_2
+				         4: iconst_3
+				         5: istore_1
+				         6: iload_2
+				         7: ireturn
+				         8: astore_2
+				         9: iconst_2
+				        10: istore_1
+				        11: iload_1
+				        12: istore_3
+				        13: iconst_3
+				        14: istore_1
+				        15: iload_3
+				        16: ireturn
+				        17: astore        4
+				        19: iconst_3
+				        20: istore_1
+				        21: aload         4
+				        23: athrow
+				      Exception table:
+				         from    to  target type
+				             0     4     8   Class java/lang/Exception
+				             0     4    17   any
+				             8    13    17   any
+				            17    19    17   any
+				      LineNumberTable:
+				        line 20: 0
+				        line 21: 2
+				        line 26: 4
+				        line 21: 6
+				        line 22: 8
+				        line 23: 9
+				        line 24: 11
+				        line 26: 13
+				        line 24: 15
+				        line 26: 17
+				        line 27: 21
+				      LocalVariableTable:
+				        Start  Length  Slot  Name   Signature
+				            2       6     1     x   I
+				            9       8     2     e   Ljava/lang/Exception;
+				           11       6     1     x   I
+				            0      24     0  this   Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass;
+				           21       3     1     x   I
+				      StackMapTable: number_of_entries = 2
+				        frame_type = 72 /* same_locals_1_stack_item */
+				          stack = [ class java/lang/Exception ]
+				        frame_type = 72 /* same_locals_1_stack_item */
+				          stack = [ class java/lang/Throwable ]
+
+				  public void onlyMe(java.lang.Object);
+				    descriptor: (Ljava/lang/Object;)V
+				    flags: ACC_PUBLIC
+				    Code:
+				      stack=2, locals=4, args_size=2
+				         0: aload_1
+				         1: dup
+				         2: astore_2
+				         3: monitorenter
+				         4: aload_0
+				         5: invokevirtual #4                  // Method inc:()I
+				         8: pop
+				         9: aload_2
+				        10: monitorexit
+				        11: goto          19
+				        14: astore_3
+				        15: aload_2
+				        16: monitorexit
+				        17: aload_3
+				        18: athrow
+				        19: return
+				      Exception table:
+				         from    to  target type
+				             4    11    14   any
+				            14    17    14   any
+				      LineNumberTable:
+				        line 31: 0
+				        line 32: 4
+				        line 33: 9
+				        line 34: 19
+				      LocalVariableTable:
+				        Start  Length  Slot  Name   Signature
+				            0      20     0  this   Lcom/binvi/springboot/demo03/book/jvm/chapter6/TestClass;
+				            0      20     1     o   Ljava/lang/Object;
+				      StackMapTable: number_of_entries = 2
+				        frame_type = 255 /* full_frame */
+				          offset_delta = 14
+				          locals = [ class com/binvi/springboot/demo03/book/jvm/chapter6/TestClass, class java/lang/Object, class java/lang/Object ]
+				          stack = [ class java/lang/Throwable ]
+				        frame_type = 250 /* chop */
+				          offset_delta = 4
+				}
+				SourceFile: "TestClass.java"
+	
+2020-11-16
+	
+	# 《深入理解Java虚拟机————JVM高级特性与最佳实践 第3版》
+
+		第7章 虚拟机类加载机制 									// done 2020-11-16 21:41:32
+			
+
+2020-11-17
+
+	# 《深入理解Java虚拟机————JVM高级特性与最佳实践 第3版》
+
+		第8章 虚拟机字节码执行引擎 								// done 2020-11-17 22:13:04
+
+2020-11-22
+
+	# 《深入理解Java虚拟机————JVM高级特性与最佳实践 第3版》 			// done 2020-11-22 16:38:31
+
+		第9章 类加载及执行子系统的案例和实战
+
+			javac源码： langtools\src\share\classes\com\sun\tools\javac\Main.java
+
+			动态代理字节码拼装： 	jdk\src\share\classes\sun\misc\ProxyGenerator.java	
+
+		第10章 前段编译与优化 									// doen 2020-11-22 18:01:12	
+
+2020-11-23
+
+	# 尚硅谷ActiveMQ教程(MQ消息中间件快速入门)
+
+		P25 25_消息可靠性之非持久化 06:55 						
+		P26 26_消息可靠性之持久化和默认策略 05:54 					// done 2020-11-23 22:55:09	
+
+2020年11月28日
+
+	# 《深入理解Java虚拟机————JVM高级特性与最佳实践 第3版》  			// start 2020-11-6 13:30:00  done 2020-11-28 14:19:36
+
+		第11章 后端编译与优化
+
+		第12章 Java内存模型与线程
+
+		第13章 线程安全与锁优化
+
+2020-11-30
+
+	# 《jls8》		
+
+		12 Execution 357 										// doen 2020-11-30 21:29:50
+
+		13 Binary Compatibility 381 							// done 2020-11-30 22:33:40
+
+2020-12-1
+
+	# 《jls8》	
+
+		14 Blocks and Statements 411 							// done 2020-12-1 23:18:06
+
+2020-12-2		
+
+		15 Expressions 465	
+
+			15.11 Field Access Expressions 500 					// done 2020-12-2 22:19:41
+
+			15.12 Method Invocation Expressions 505 			// done 2020-12-2 23:15:14
+
+2020-12-6
+
+	# 《Java8 函数式编程》 											// start 2020-12-5 10:06:40 done 2020-12-6 20:06:12			
+
+2020-12-8
+
+	# 服务器JVM内存溢出问题排查：
+
+		https://docs.oracle.com/javase/8/docs/technotes/guides/	
+
+2020-12-9
+
+	# 服务器JVM内存溢出问题排查：		
