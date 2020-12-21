@@ -1,0 +1,101 @@
+linux常用命令：
+
+	top: 实时显示当前CPU、内存、系统负载、进程等信息
+
+		h 可以显示更多帮助
+
+		top -Hp pid 或者 ps -Lfp pid 可以查看进程下的线程
+
+	free: 显示系统的内存和交换空间的使用状态
+
+		free -m -g -h -t
+
+	df: 查看磁盘空间
+
+		df -Th
+	
+	du: 显示目录及其内文件的大小
+
+		du -ah
+
+	vmstat: 显示系统的内存，交换空间，IO，甚至时CPU的信息
+	
+		vmstat 1 100  // 每隔1s，100次
+
+	netstat: 显示网络连接的状态
+	
+		netstat -an
+
+		netstat -tapn
+
+		netstat --route			
+
+		netstat --tcp --numeric
+
+		netstat --tcp --listening --programs
+
+	ps: 显示当前系统中所有正在运行进程
+	
+		ps auxf | head	
+
+	find: 查找文件等
+
+		find / -name '*.hprof'
+
+	pwd: 当前所在路径	
+
+	cat: cat .... | more
+
+	tail: tail -f ...
+
+	CUP、内存等信息：
+
+		uname -a: 当前操作系统内核信息
+
+		cat /proc/version: 当前操作系统版本信息
+
+		cat /proc/cpuinfo: 
+
+		cat /proc/meminfo
+
+JVM常用监控命令：
+
+	ps -ef | grep java
+
+	jps: 虚拟机进程状况工具
+
+		jps -mlvV
+
+	jcmd: 
+	
+		jcmd -l
+
+	jinfo: java配置信息工具
+	
+		jinfo -flags pid		
+
+	jstat: 虚拟机各种运行状态信息
+
+		jstat -gc pid 250 20
+
+	jmap: java内存映像工具
+
+		jmap -heap pid
+
+		jmap -histo:live pid | more
+
+		jmap -dump:format=b,file=tmp/java_pid.hprof pid
+
+	jhat: 虚拟机堆转储快照分析工具
+	
+		jhat eclipse.bin	
+
+	jstack: java堆栈跟踪工具
+
+		jstack -l pid
+
+	jstatd
+
+
+
+
