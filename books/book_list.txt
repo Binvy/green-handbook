@@ -62,6 +62,8 @@ done：
 
 	《计算机组成原理》													// start 2021-1-4 20:23:42 done 2021-1-9 12:23:24
 
+	《计算机网络————自顶向下方法》 										// start 2021-1-9 15:31:15 done 2021-1-17 15:31:19
+
 doing：
 
 	《TCP/IP详解：卷1》												// doing start: 2019-8-20 16:43:51 now：chapter13 2019-8-28 20:58:41 TODO
@@ -139,19 +141,5 @@ todo:
 	mybatis-reference-guide 										
 
 	struts-reference-guide 		
-
- 计算机基础：
-
- 	《计算机操作系统》 														
-
- 	《计算机网络》	
-
- 	《计算机组成原理》													// start 2021-1-4 20:23:42 done 2021-1-9 12:23:24
-
- 	《数据结构与算法》
-
- 	《TCP/IP》
-
- 	《HTTP》
 
 
