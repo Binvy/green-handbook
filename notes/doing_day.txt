@@ -5745,3 +5745,27 @@
 2021-1-23
 
 	# 《数据结构与算法分析 Java语言描述》 							// start 2021-1-18 20:30:47 done 2021-1-23 16:56:51	
+
+2021-1-30
+
+	# Java类中的native方法相关的C/C++源码查看：
+
+		比如： Object.clone() ->
+
+			本地方法表知道clone方法对应的本地函数为JVM_Clone： 
+
+				openjdk\jdk\src\share\javavm\export\jvm.h
+
+					JNIEXPORT jobject JNICALL
+					JVM_Clone(JNIEnv *env, jobject obj);
+
+			对于的JVM_Clone函数定义在：		
+
+				openjdk\hotspot\src\share\vm\prims\jvm.cpp	(http://hg.openjdk.java.net/jdk7/jdk7/hotspot/file/tip/src/share/vm/prims/jvm.createAopProxy)
+
+					JVM_ENTRY(jobject, JVM_Clone(JNIEnv* env, jobject handle))
+					// ...
+					JVM_END
+
+
+
