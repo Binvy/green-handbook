@@ -5768,4 +5768,8 @@
 					JVM_END
 
 
+2021-1-31
 
+	# Java泛型详尽说明： http://angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html
+
+	# 《Java核心技术 卷I》  第9章 集合 									// done 2021-1-31 22:19:14
