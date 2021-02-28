@@ -94,6 +94,8 @@ doing：
 
 	《数据结构》 （用面向对象方法与C++语言描述）（第2版） 					// start 2020-9-26 09:33:25
 
+	《Java Concurrency in Practice | Java并发编程实战》 				// start 2021-2-27 15:00:00
+
 todo:
 
 	《Java编程思想》
@@ -135,8 +137,6 @@ todo:
 	《Spring技术内幕》
 
 	《Java 8 in Action》
-
-	《Java Concurrency in Practice | Java并发编程实战》
 
 	《Java Puzzlers | Java解惑》
 
