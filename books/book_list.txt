@@ -76,11 +76,7 @@ doing：
 
 	《TCP/IP详解：卷1》												// doing start: 2019-8-20 16:43:51 now：chapter13 2019-8-28 20:58:41 TODO
 
-		http://docs.52im.net/extend/docs/book/tcpip/vol1/1/
-
-	《Core Java Volume I--Fundamentals》								// doing start: 
-
-	《Core Java, Volume II--Advanced Features》 						// doing start: 2020-6-28 19:50:41			
+		http://docs.52im.net/extend/docs/book/tcpip/vol1/1/		
 
 	《How Tomcat Works》												// doing start: 2019-9-23 18:22:45 now: chapter3 2019-10-2 10:41:46
 
@@ -95,6 +91,8 @@ doing：
 	jls8:
 
 	《数据结构》 （用面向对象方法与C++语言描述）（第2版） 					// start 2020-9-26 09:33:25
+
+	《高性能MySQL》 													// start 2021-3-6 15:00:53
 
 todo:
 
@@ -128,7 +126,7 @@ todo:
 
 	《Elasticsearch实战》 
 
-	《高性能MySQL》
+	
 
 	《MySQL技术内幕 InnoDB存储引擎》
 
